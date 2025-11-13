@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  dmg_server:
+    image: josephsuess23/dmg-server:latest
+    container_name: dmg_server
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+
