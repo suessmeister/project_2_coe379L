@@ -24,9 +24,7 @@ docker run -p 5000:5000 josephsuess23/dmg-server:latest**
 
 Output: Expect JSON showing the top model's properties.
 
-## curl -X POST http://localhost:5000/inference \
-     -H "Content-Type: application/octet-stream" \
-     --data-binary "@test_image.jpg"
+## curl -X POST http://localhost:5000/inference -H "Content-Type: application/octet-stream" --data-binary "@test_image.jpg"
 
 Output" Expect JSON with one field "prediction" that returns either a "damage" or "no_damage" attribute for that image. 
 ''
