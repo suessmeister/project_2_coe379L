@@ -4,11 +4,11 @@ The image is located at: https://hub.docker.com/r/josephsuess23/dmg-server
 
 To use the server,
 
-run: **docker-compose up**
+**docker-compose up**
 
 To stop the server, 
 
-run: **docker-compose down** 
+**docker-compose down** 
 
 If you do not want to use docker compose, you must execute the following:
 
